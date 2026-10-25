@@ -1,0 +1,95 @@
+{
+  "version": "0.1.0",
+  "artifacts": [
+    {
+      "filename": "SiriusDoc.xcframework.zip",
+      "sha256": "4e2502e39c4363b25e3612508477fcddecf1282fcfb37dd7b4ddb86aad3cce12",
+      "bytes": 69478
+    },
+    {
+      "filename": "SiriusDocsKit.xcframework.zip",
+      "sha256": "f4bb445b6b2db8239b18ff836812b4917658f34a1c3f6ae0cf293489554a73d7",
+      "bytes": 3155
+    },
+    {
+      "filename": "SiriusDocsResources.zip",
+      "sha256": "b7edf0350900c9f8667625fcdd74e08dce5c4aa2a2770534d5a9fc4239e4096f",
+      "bytes": 28206768
+    },
+    {
+      "filename": "SiriusPDFApple.xcframework.zip",
+      "sha256": "da9f8941d11e1bd7a5e264d1f0311d5d0573fe81b6280e536ed8ac099d4da68e",
+      "bytes": 1922589
+    },
+    {
+      "filename": "SiriusPDFKit.xcframework.zip",
+      "sha256": "90eeecc59858b4cde0faff14f6a9964c820b256da2c1b7c1dfd2e26c78a69445",
+      "bytes": 451774
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp310-none-any.whl",
+      "sha256": "5a24d5fa00feec43b6b887fac634079a7a013e7184b8ab454aa8f2c4e38b1a09",
+      "bytes": 339136
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp310-none-macosx_26_0_arm64.whl",
+      "sha256": "8e0c6b079a24f5e693f1beca3e9381db963ead6716ad0821078ffa1dbad7fdc9",
+      "bytes": 1558537
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp311-none-any.whl",
+      "sha256": "4863661f6b3d30dfed8afd41d0d9fdca660166d23928b1fc2db7d00e090de876",
+      "bytes": 537960
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp311-none-macosx_26_0_arm64.whl",
+      "sha256": "e34043212061528a7ea2bc3ac33d6b0c3c58a14082177be927b9883467e7d437",
+      "bytes": 1757364
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp312-none-any.whl",
+      "sha256": "4cf66190f1216758b10905fdc40109c0795457d5826b35c0ecdd327c57091a4e",
+      "bytes": 505993
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp312-none-macosx_26_0_arm64.whl",
+      "sha256": "25d23d23e5c619f64c87c97ed3810884fe72803f3abe348abd7e814ab25b119e",
+      "bytes": 1725395
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp313-none-any.whl",
+      "sha256": "4fc73fc07851935451f810ad3f2ada8496181b5406caf6ef88161f24c7c1422b",
+      "bytes": 512822
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp313-none-macosx_26_0_arm64.whl",
+      "sha256": "c431215b793943be18dc39b009cc6ae00f4e2dfb373f57758d6e104a30d9bea4",
+      "bytes": 1732225
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp314-none-any.whl",
+      "sha256": "53dfb539db74b07b11da97cbafe854a9b3a04d853e6c084f74d630aee8579c35",
+      "bytes": 545256
+    },
+    {
+      "filename": "sirius_docs-0.1.0-cp314-none-macosx_26_0_arm64.whl",
+      "sha256": "e4cebdb2c82dbb2bf28fdf2250d947eab2ae62fdb2e8bd9082c12419d69432a4",
+      "bytes": 1764657
+    },
+    {
+      "filename": "sirius_pdf-0.1.0-py3-none-any.whl",
+      "sha256": "0787b23bed3221751dda0c9a7b86d3a683d122735ce1f22b3d519c5e73887e64",
+      "bytes": 6985
+    }
+  ],
+  "swift_platforms": [
+    "macos-26-arm64"
+  ],
+  "python_minors": [
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14"
+  ]
+}
