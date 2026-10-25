@@ -74,7 +74,7 @@ Select `SiriusDocsKit` from the binary Swift package at
 `https://github.com/mikhutchinson/siriusdocs-commercial`, exact version `0.1.0`.
 The initial binary Swift SDK targets macOS 26 on Apple silicon. iOS, simulator,
 Intel Mac and App Store distribution are not qualified by this release.
-The SDK uses pinned SwiftPython `0.7.0-preview.1.7`, under its separately
+The SDK uses pinned SwiftPython `0.7.0`, under its separately
 supplied license, for shared routing and validation.
 
 ```swift

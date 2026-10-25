@@ -21,7 +21,7 @@ manifest = json.loads((root / "artifact-manifest.json").read_text())
 resources = next(x for x in manifest["artifacts"] if x["filename"] == "SiriusDocsResources.zip")
 downloads = [
     (resources["filename"], "https://github.com/mikhutchinson/siriusdocs-commercial/releases/download/0.1.0/SiriusDocsResources.zip", resources["sha256"]),
-    ("SwiftPythonCommercial-0.7.0-preview.1.7.zip", "https://github.com/mikhutchinson/swiftpython-commercial/releases/download/v0.7.0-preview.1.7/SwiftPythonCommercial-0.7.0-preview.1.7.zip", "32c699aef6791bb69798ecc6bed147bb4c5f7b717bdb6e2d20b27df6692aef63"),
+    ("SwiftPythonCommercial-0.7.0.zip", "https://github.com/mikhutchinson/swiftpython-commercial/releases/download/v0.7.0/SwiftPythonCommercial-0.7.0.zip", "b98db5aff4d1195310efaec85377c6c0b194baf84dedc8719a3d8500a20dc2f5"),
 ]
 for name, url, digest in downloads:
     target = args.cache / name
@@ -33,7 +33,7 @@ for name, url, digest in downloads:
         with zipfile.ZipFile(target) as archive:
             assert all(not n.startswith("/") and ".." not in Path(n).parts for n in archive.namelist())
         subprocess.run(["ditto", "-x", "-k", str(target), str(destination)], check=True)
-runtime = args.cache / "SwiftPythonCommercial-0.7.0-preview.1.7.zip.unpacked/swiftpython-commercial-0.7.0-preview.1.7"
+runtime = args.cache / "SwiftPythonCommercial-0.7.0.zip.unpacked/swiftpython-commercial-0.7.0"
 subprocess.run([sys.executable, str(root / "Integration/package_swift_consumer.py"),
     "--binary", str(args.binary.resolve()), "--runtime", str(runtime.resolve()),
     "--modules", str((args.cache / "SiriusDocsResources.zip.unpacked/PythonPackages").resolve()),
