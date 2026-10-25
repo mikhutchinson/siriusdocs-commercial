@@ -10,7 +10,9 @@ on:
   release:
     types: [published]
 permissions:
-  contents: read
+  # GitHub restricts draft release visibility to write-capable repository tokens.
+  # This workflow only downloads the same repository's immutable assets.
+  contents: write
 jobs:
   python:
     strategy:
@@ -22,6 +24,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
