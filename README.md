@@ -1,5 +1,11 @@
 # SiriusDocs
 
+**0.1.0 is withdrawn from release availability.** Qualification exposed
+extraction warnings and structural defects. The release has been returned to
+draft while these are repaired; existing tags and artifact bytes are retained.
+Swift Package Index submission is on hold. The installation instructions below
+describe the withdrawn version, not an accepted current release.
+
 Local document ingestion for Swift and Python: structured content, Markdown,
 portable assets, source identities, warnings and machine-readable provenance.
 Extraction does not fetch documents, execute macros or download models.
